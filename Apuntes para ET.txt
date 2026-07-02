@@ -1,0 +1,16 @@
+Examen Transversal
+------------------
+Temario:
+- Creación de Menú
+- Uso de Listas / Diccionario
+- Creación de Funciones
+  - validación 
+  - agregar / eliminar / actualizar / listar / filtrar
+  - uso de Try
+- Uso de GitHub
+  - subir
+  - clonar
+  - commit
+--------------------------------------------------
+
+
