@@ -113,7 +113,7 @@ while True:
                 resp=input("Desea continuar (s/n) :").lower()
                 if resp=="n":
                     break
-
+        
         case 5:
             while True:
                 codigo=input("Ingrese codigo a eliminar:").strip().upper()
