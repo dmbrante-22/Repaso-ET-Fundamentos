@@ -56,6 +56,8 @@ def eliminar_actividad(codigo):
         return True
     return False
 
+
+
 #######################################################
 def menu():
     print('''
@@ -110,6 +112,8 @@ while True:
                 resp=input("¿Desea continuar? (s/n): ").lower()
                 if resp in ('n','no'):
                     break
+        case 4:
+            
         case 5:
             while True:
                 codigo=input("Ingrese el código de la actividad a eliminar: ").upper().strip()

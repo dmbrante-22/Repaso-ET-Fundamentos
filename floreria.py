@@ -45,7 +45,7 @@ def menu():
     5. Eliminar arreglo
     6. Salir
     ====================================
-          ''')
+        ''')
 
 def seleccione():
     try:
