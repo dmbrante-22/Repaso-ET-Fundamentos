@@ -119,6 +119,12 @@ def actualizar_precio (codigo,nuevo_precio):
         return True
     return False
 
+def EliminarServicio(codigo):
+    if codigo in servicios:
+        del servicios[codigo]
+        del comercial_servicios[codigo]
+        return True
+    return False
     
 #############################################################################
 #MENÚ
@@ -234,6 +240,16 @@ while True:
                 print("Agregado correctamente")
             else:
                 print("No se grabó")
+        case 5:
+            while True:
+                codigo=input("Ingrese codigo:").upper
+                if EliminarServicio(codigo)==False:
+                    print("No existe servicio con ese codigo")
+                else:
+                    print("Eliminado...")
+                resp=input("Desea repetir el proceso (s/n):").lower()
+                if resp in ('n','no'):
+                    break
         case 7:
             print("Salir - Dana")
             break
